@@ -1169,9 +1169,7 @@ soz = (
 'Yalnız olduğunu en çok,'yalnız değilsin' dediklerinde hissedersin.'
 'Bazen insanın kaderi, başkalarının kaderi üzerinden yazılıyordu'
 'Dostlarından kuşkulanmak, başa geçenlere özgü bir hastalıktır.'
-  
- )
-
+)
 @client.on(events.NewMessage(pattern="^/stag ?(.*)"))
 async def stag(event):
   global gece_tag
