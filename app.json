@@ -1,0 +1,55 @@
+{
+      "name": "Mentionall bot",
+      "description": "Mentionall tagger",
+      "keywords": [
+         "telegram",
+         "tagger",
+         "group",
+         "samilben",
+         "Sohbetimalfa"
+      ],   
+   "repository": "https://github.com/amahocam/mentionall",
+   "env": {
+      "TOKEN": {
+         "description": "Botunuzun tokenini bura yazın",
+         "value": ""
+      },
+      "APP_ID": {
+         "description": "my.telegram.org adresindən APP ID alın.",
+         "value": "9379430"
+      },
+      "API_HASH": {
+         "description": "my.telegram.org adresindən API HASH alın",
+         "value": "24225f792895321668ccee4085defadf"
+      },    
+      "LOG_QRUP": {
+         "description": "log grubun id si",
+         "value": "-1001757359371"
+      },
+      "USERNAME": {
+         "description": "Botun kullanıcı adı yazınız @ işareti olmadan",
+         "value": "EtikettagerBot"
+      },
+      "sahib": {
+         "description": "Kendi kullanıcı adınızı yazınız @ işareti olmadan",
+         "value": "Samilben"
+      },      
+      "support": {
+         "description": "Bura support grubunuz yada kanalınızın kullanıcı adı @ işareti olmadan yazın",
+         "value": "Sohbetimalfa"
+      },
+      "startmesaj": {
+         "description": "Bota start verilince mesajınız",
+         "value": "**Merhaba** __Grup veya kanaldaki neredeyse tüm üyelerden bahsedebilirim ★__"
+      },
+      "qrupstart": {
+         "description": "Grupta start verildiği zaman mesajınız",
+         "value": "✅ **Ben şuan aktif olarak çalışmaktayım !** 🕊️ **Komutları görmek için pm den bakabilirsin**"
+      },
+      "komutlar": {
+         "description": "Yardım menüsü",
+         "value": "Yardım Menüsüne Hoşgeldin 🗽\n/utag <Mesajınız> - kullanıcıları 5 li etiketlerim\n/atag <Mesajınız> - Sadece yöneticileri etiketlerim\n/tektag <Mesajınız> - kullanıcıları tek tek etiketlerim\n/etag  <Mesajınız> - Kullanıcıları emoji ile etiketlerim\n/stag <Mesajınız> - Kullanıcıları manalı sözler ile etiketlerim\n/rtag  <Mesajınız> - Kullanıcıları renkler le etiketlerim\n/cancel - Etiket işlemini iptal ederim.\n❕ Yalnızca yöneticileri bu komutları kullanabilir. ✨"
+      }
+     
+   }
+ }
