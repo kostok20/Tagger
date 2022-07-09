@@ -410,7 +410,7 @@ soz = (
 'Kibir tamamen sona erdiğinde alçakgönüllülük başlar.'
 'Kadınlar da her şey tenlerinin altına işler'
 'Camus bir ideoloji adına yaratılan şiddete karşıydı'
-'Dağınık masa, dağınık kafaya işaretse, boş masa neye işaret ?
+'Dağınık masa, dağınık kafaya işaretse, boş masa neye işaret ?'
 'Yerimizi boşaltsak da dünyaya yeni geleceklere yer açsak'
 'Bazen insanlardan çok hikâyeleri etkiler sizi.'
 'Rüzgarla gelen babam, yine rüzgarla gitmişti.'
