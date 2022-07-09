@@ -460,7 +460,7 @@ soz = (
 'Aşk, mert işidir. Mertliğin de kadını erkeği yoktur'
 'İ𝑛𝑠𝑎𝑛 𝑎𝑛𝑙𝑎𝑑ığı 𝑣𝑒 𝑎𝑛𝑙𝑎şı𝑙𝑑ığı 𝑖𝑛𝑠𝑎𝑛𝑑𝑎 ç𝑖ç𝑒𝑘 𝑎ç𝑎𝑟'
 'İlk aşkımızı asla unutmayız. Benimkinin sonu öldürülmek oldu'
-'Hayattan çıkarı olmayanların, ölümden de çıkarı olmayacaktır
+'Hayattan çıkarı olmayanların, ölümden de çıkarı olmayacaktır'
 'Annemiz, ışınları artık ısıtmayan örtülü bir güneş gibiydi'
 '𝑌ü𝑟𝑒ğ𝑖𝑚𝑖𝑛 𝑡𝑎𝑚 𝑜𝑟𝑡𝑎𝑠ı𝑛𝑑𝑎 𝑏ü𝑦ü𝑘 𝑏𝑖𝑟 𝑦𝑜𝑟𝑔𝑢𝑛𝑙𝑢𝑘 𝑣𝑎𝑟'
 '𝐵𝑖𝑟𝑖 𝑣𝑎𝑟 𝑛𝑒 ö𝑧𝑙𝑒𝑚𝑒𝑘𝑡𝑒𝑛 𝑦𝑜𝑟𝑢𝑙𝑑𝑢𝑚 𝑛𝑒 𝑠𝑒𝑣𝑚𝑒𝑘𝑡𝑒𝑛'
