@@ -506,7 +506,7 @@ soz = (
 'Dikkat ettin mi, bugünlerde insanlar birbirlerini nasıl incitiyorlar'
 'Hayattan pek çok şey öğrenen insanlar, neşeli ve masum kalamazlar'
 'Aldığım nefesten bile daha çok ihtiyaç duyuyordum ona'
-"Bir bavula her şey sığmadıkça gitmek hiçbir zaman kolay olmayacak'
+'Bir bavula her şey sığmadıkça gitmek hiçbir zaman kolay olmayacak'
 'İnsanın hayatı kendi eseridir. Herkes kendi hayatının mimarıdır'
 'Seni öldürmeyen şey, başladığı işi bitirmek için geri döner'
 'Rüzgarla gelen babam, yine rüzgarla gitmişt'
