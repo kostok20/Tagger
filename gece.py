@@ -1,9 +1,8 @@
 #################################
 # mentionall Tagger Bot #
 #################################
-# Repo Sahibi - Samilben 
-# Telegram - t.me/Samilben
-# Telegram - t.me/Samilben 
+# Repo Sahibi - BATU 
+# Telegram - t.me/slmBATU 
 ##################################
 import heroku3
 import random
@@ -44,9 +43,9 @@ async def start(event):
                       [
                        Button.inline("🎛 Komutlar", data="komutlar")
                       ],
-                      [Button.url('🌱 Beni Gruba Ekle', f'https://t.me/{USERNAME}?startgroup=a')],
-                      [Button.url('📣 Support', f'https://t.me/{support}'),
-                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/{sahib}')]
+                      [Button.url('🌱 Beni Gruba Ekle', f'https://t.me/BugsBunyEtiket_bot?startgroup=a')],
+                      
+                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/slmBATU')]
                     ),
                     link_preview=False)
 
@@ -63,9 +62,9 @@ async def handler(event):
                       [
                        Button.inline("🎛 Komutlar", data="komutlar")
                       ],
-                      [Button.url('🌱 Beni Gruba Ekle', f'https://t.me/{USERNAME}?startgroup=a')],
-                      [Button.url('📣 Support', f'https://t.me/{support}'),
-                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/{sahib}')]
+                      [Button.url('🌱 Beni Gruba Ekle', f'https://t.me/BugsBunyEtiket_bot?startgroup=a')],
+                    
+                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/slmBATU}')]
                     ),
                     link_preview=False)
 
@@ -123,7 +122,7 @@ async def mentionall(event):
         await event.respond("⛔ Üye etiketleme işlemi durduruldu",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/{support}')
+                       Button.url('📣 ㅤㅤㅤ🅱🅰🆃🆄', f'https://t.me/slmBATU')
                       ]
                     )
                   )
@@ -168,7 +167,7 @@ async def mentionalladmin(event):
     await client.send_message(event.chat_id, "❄️ Admin etiketleme başladı\n⏱️ İnterval - 2 saniye",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/{support}')
+                       Button.url('📣 ㅤㅤㅤ🅱🅰🆃🆄', f'https://t.me/slmBATU')
                       ]
                     )
                   ) 
@@ -182,7 +181,7 @@ async def mentionalladmin(event):
         await event.respond("⛔ Admin etiketleme işlemi durduruldu",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/{support}')
+                       Button.url('📣 ㅤㅤㅤ🅱🅰🆃🆄', f'https://t.me/slmBATU')
                       ]
                     )
                   )
@@ -227,7 +226,7 @@ async def tektag(event):
     await client.send_message(event.chat_id, "❄️ Tek-tek etiketleme başladı\n⏱️ İnterval - 2 saniye",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/{support}')
+                       Button.url('📣 ㅤㅤㅤ🅱🅰🆃🆄', f'https://t.me/slmBATU')
                       ]
                     )
                   ) 
@@ -241,7 +240,7 @@ async def tektag(event):
         await event.respond("⛔ Teker teker etiketleme işlemi durduruldu",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/{support}')
+                       Button.url('📣 ㅤㅤㅤ🅱🅰🆃🆄', f'https://t.me/slmBATU')
                       ]
                     )
                   )
@@ -300,7 +299,7 @@ async def etag(event):
     await client.send_message(event.chat_id, "❄️ Emoji ile etiketleme başladı\n⏱️ İnterval - 2 saniye",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/{support}')
+                       Button.url('📣 ㅤㅤㅤ🅱🅰🆃🆄', f'https://t.me/slmBATU')
                       ]
                     )
                   ) 
@@ -314,7 +313,7 @@ async def etag(event):
         await event.respond("⛔ Emoji ile etiketleme işlemi durduruldu",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/{support}')
+                       Button.url('📣 ㅤㅤㅤ🅱🅰🆃🆄', f'https://t.me/slmBATU')
                       ]
                     )
                   )
@@ -424,8 +423,8 @@ soz = (
 'Ulan bu canım memlekette ya kudura kudura ölecez ya da delire delire!',
 'Bana öyle geliyor ki sen de beni seviyorsun, ya da bana öyle geliyor.',
 'Aşk, ölümsüz olmak istediğin bir savaş meydanı. Bir Cihan Kafes.',
-'@Samilbots gururla selamlıyor',
-'Şuan okuduğun bu mesajı @Samilben yazdı',
+'@slmBATU gururla selamlıyor',
+'Şuan okuduğun bu mesajı @slmBATU yazdı',
 'Aşkın tarifini yaşayarak yazarsın sadece.',
 'Bazen vicdani yargı, idamdan daha ağır bedeller ödetebilirdi insana',
 'Buz kadar lekesiz, kar kadar temiz olsan bile, iftiradan kurtulamazsın',
@@ -544,7 +543,7 @@ async def stag(event):
     await client.send_message(event.chat_id, "❄️ Söz ile etiketleme başladı\n⏱️ İnterval - 2 saniye",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/{support}')
+                       Button.url('📣 ㅤㅤㅤ🅱🅰🆃🆄', f'https://t.me/slmBATU')
                       ]
                     )
                   ) 
@@ -558,7 +557,7 @@ async def stag(event):
         await event.respond("⛔ Söz ile etiketleme işlemi durduruldu",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/{support}')
+                       Button.url('📣 ㅤㅤㅤ🅱🅰🆃🆄', f'https://t.me/slmBATU')
                       ]
                     )
                   )
@@ -605,7 +604,7 @@ async def rtag(event):
     await client.send_message(event.chat_id, "❄️ Renk ile etiketleme başladı\n⏱️ İnterval - 2 saniye",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/{support}')
+                       Button.url('📣 ㅤㅤㅤ🅱🅰🆃🆄', f'https://t.me/slmBATU')
                       ]
                     )
                   ) 
@@ -619,7 +618,7 @@ async def rtag(event):
         await event.respond("⛔ Renk ile etiketleme işlemi durduruldu",
                     buttons=(
                       [
-                       Button.url('📣 Support', f'https://t.me/{support}')
+                       Button.url('📣 ㅤㅤㅤ🅱🅰🆃🆄', f'https://t.me/slmBATU')
                       ]
                     )
                   )
@@ -634,6 +633,6 @@ async def rtag(event):
 #########################
 
 
-print(">> Bot çalışmaktadur merak etme 🚀 @Samilben bilgi alabilirsin <<")
+print(">> Bot çalışıyor merak etme  @slmBATU bilgi alabilirsin <<")
 client.run_until_disconnected()
 run_until_disconnected()
