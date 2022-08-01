@@ -2,4 +2,4 @@ telethon
 cryptg
 requests
 heroku3
-pyrogram==1.4.12
+pyrogram
