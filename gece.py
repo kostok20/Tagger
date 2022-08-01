@@ -41,14 +41,14 @@ async def start(event):
      await client.send_message(log_qrup, f"ℹ️ **Yeni Kullanıcı -** {ad}")
      return await event.reply(f"{ad} {startmesaj}", buttons=(
                       
-                      [Button.inline("🎛 Komutlar", data="komutlar")],
-                      
-                      [Button.url('🌱 Beni Gruba Ekle', f'https://t.me/BugsBunyEtiket_bot?startgroup=a')],
-                      
-                      [Button.url('👨🏻‍💻 Sahibim', f'https://t.me/slmBATU')]
+                      [
+                       Button.inline("🎛 Komutlar", data="komutlar")
+                      ],
+                      [Button.url('🌱 Beni Gruba Ekle', f'https://t.me/{USERNAME}?startgroup=a')],
+                      [Button.url('📣 Support', f'https://t.me/{support}'),
+                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/{sahib}')]
                     ),
-                    link_preview=False
-                   ) 
+                    link_preview=False)
 
 
   if event.is_group:
@@ -63,12 +63,11 @@ async def handler(event):
                       [
                        Button.inline("🎛 Komutlar", data="komutlar")
                       ],
-                      [Button.url('🌱 Beni Gruba Ekle', f'https://t.me/BugsBunyEtiket_bot?startgroup=a')],
-                    
-                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/slmBATU}')]
+                      [Button.url('🌱 Beni Gruba Ekle', f'https://t.me/{USERNAME}?startgroup=a')],
+                      [Button.url('📣 Support', f'https://t.me/{support}'),
+                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/{sahib}')]
                     ),
-                    link_preview=False
-                    ) 
+                    link_preview=False)
 
 # gece kusu
 @client.on(events.callbackquery.CallbackQuery(data="komutlar"))
@@ -125,10 +124,10 @@ async def mentionall(event):
         await event.respond("⛔ Üye etiketleme işlemi durduruldu",
                     buttons=(
                       [
-                       Button.url('📣 ㅤㅤㅤ🅱🅰🆃🆄', f'https://t.me/slmBATU')
+                      Button.url('📣 Support', f'https://t.me/{support}')
                       ]
                     )
-                  )
+                  ) 
         return
       if usrnum == 5:
         await client.send_message(event.chat_id, f"{usrtxt} {msg}")
@@ -170,7 +169,7 @@ async def mentionalladmin(event):
     await client.send_message(event.chat_id, "❄️ Admin etiketleme başladı\n⏱️ İnterval - 2 saniye",
                     buttons=(
                       [
-                       Button.url('📣 ㅤㅤㅤ🅱🅰🆃🆄', f'https://t.me/slmBATU')
+                      Button.url('📣 Support', f'https://t.me/{support}')
                       ]
                     )
                   ) 
@@ -184,10 +183,10 @@ async def mentionalladmin(event):
         await event.respond("⛔ Admin etiketleme işlemi durduruldu",
                     buttons=(
                       [
-                       Button.url('📣 ㅤㅤㅤ🅱🅰🆃🆄', f'https://t.me/slmBATU')
+                      Button.url('📣 Support', f'https://t.me/{support}')
                       ]
                     )
-                  )
+                  ) 
         return
       if usrnum == 1:
         await client.send_message(event.chat_id, f"{usrtxt} {msg}")
@@ -229,7 +228,7 @@ async def tektag(event):
     await client.send_message(event.chat_id, "❄️ Tek-tek etiketleme başladı\n⏱️ İnterval - 2 saniye",
                     buttons=(
                       [
-                       Button.url('📣 ㅤㅤㅤ🅱🅰🆃🆄', f'https://t.me/slmBATU')
+                      Button.url('📣 Support', f'https://t.me/{support}')
                       ]
                     )
                   ) 
@@ -243,10 +242,10 @@ async def tektag(event):
         await event.respond("⛔ Teker teker etiketleme işlemi durduruldu",
                     buttons=(
                       [
-                       Button.url('📣 ㅤㅤㅤ🅱🅰🆃🆄', f'https://t.me/slmBATU')
+                      Button.url('📣 Support', f'https://t.me/{support}')
                       ]
                     )
-                  )
+                  ) 
         return
       if usrnum == 1:
         await client.send_message(event.chat_id, f"{usrtxt} {msg}")
@@ -302,7 +301,7 @@ async def etag(event):
     await client.send_message(event.chat_id, "❄️ Emoji ile etiketleme başladı\n⏱️ İnterval - 2 saniye",
                     buttons=(
                       [
-                       Button.url('📣 ㅤㅤㅤ🅱🅰🆃🆄', f'https://t.me/slmBATU')
+                      Button.url('📣 Support', f'https://t.me/{support}')
                       ]
                     )
                   ) 
@@ -316,10 +315,10 @@ async def etag(event):
         await event.respond("⛔ Emoji ile etiketleme işlemi durduruldu",
                     buttons=(
                       [
-                       Button.url('📣 ㅤㅤㅤ🅱🅰🆃🆄', f'https://t.me/slmBATU')
+                      Button.url('📣 Support', f'https://t.me/{support}')
                       ]
                     )
-                  )
+                  ) 
         return
       if usrnum == 5:
         await client.send_message(event.chat_id, f"{usrtxt} {msg}")
@@ -546,7 +545,7 @@ async def stag(event):
     await client.send_message(event.chat_id, "❄️ Söz ile etiketleme başladı\n⏱️ İnterval - 2 saniye",
                     buttons=(
                       [
-                       Button.url('📣 ㅤㅤㅤ🅱🅰🆃🆄', f'https://t.me/slmBATU')
+                      Button.url('📣 Support', f'https://t.me/{support}')
                       ]
                     )
                   ) 
@@ -560,10 +559,10 @@ async def stag(event):
         await event.respond("⛔ Söz ile etiketleme işlemi durduruldu",
                     buttons=(
                       [
-                       Button.url('📣 ㅤㅤㅤ🅱🅰🆃🆄', f'https://t.me/slmBATU')
+                      Button.url('📣 Support', f'https://t.me/{support}')
                       ]
                     )
-                  )
+                  ) 
         return
       if usrnum == 1:
         await client.send_message(event.chat_id, f"{usrtxt} {msg}")
@@ -607,7 +606,7 @@ async def rtag(event):
     await client.send_message(event.chat_id, "❄️ Renk ile etiketleme başladı\n⏱️ İnterval - 2 saniye",
                     buttons=(
                       [
-                       Button.url('📣 ㅤㅤㅤ🅱🅰🆃🆄', f'https://t.me/slmBATU')
+                      Button.url('📣 Support', f'https://t.me/{support}')
                       ]
                     )
                   ) 
@@ -621,10 +620,10 @@ async def rtag(event):
         await event.respond("⛔ Renk ile etiketleme işlemi durduruldu",
                     buttons=(
                       [
-                       Button.url('📣 ㅤㅤㅤ🅱🅰🆃🆄', f'https://t.me/slmBATU')
+                      Button.url('📣 Support', f'https://t.me/{support}')
                       ]
                     )
-                  )
+                  ) 
         return
       if usrnum == 3:
         await client.send_message(event.chat_id, f"{usrtxt} {msg}")
