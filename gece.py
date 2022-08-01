@@ -40,14 +40,15 @@ async def start(event):
      ad = f"[{usr.first_name}](tg://user?id={usr.id}) "
      await client.send_message(log_qrup, f"ℹ️ **Yeni Kullanıcı -** {ad}")
      return await event.reply(f"{ad} {startmesaj}", buttons=(
-                      [
-                       Button.inline("🎛 Komutlar", data="komutlar")
-                      ],
+                      
+                      [Button.inline("🎛 Komutlar", data="komutlar")],
+                      
                       [Button.url('🌱 Beni Gruba Ekle', f'https://t.me/BugsBunyEtiket_bot?startgroup=a')],
                       
-                       Button.url('👨🏻‍💻 Sahibim', f'https://t.me/slmBATU')]
+                      [Button.url('👨🏻‍💻 Sahibim', f'https://t.me/slmBATU')]
                     ),
-                    link_preview=False)
+                    link_preview=False
+                   ) 
 
 
   if event.is_group:
