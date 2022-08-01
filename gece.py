@@ -66,7 +66,8 @@ async def handler(event):
                     
                        Button.url('👨🏻‍💻 Sahibim', f'https://t.me/slmBATU}')]
                     ),
-                    link_preview=False)
+                    link_preview=False
+                    ) 
 
 # gece kusu
 @client.on(events.callbackquery.CallbackQuery(data="komutlar"))
@@ -76,7 +77,8 @@ async def handler(event):
                       Button.inline("◀️ Geri", data="start")
                       ]
                     ),
-                    link_preview=False)
+                    link_preview=False
+                   ) 
 
 # 5 li etiketleme modulü
 @client.on(events.NewMessage(pattern="^/utag ?(.*)"))
