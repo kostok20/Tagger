@@ -5,38 +5,31 @@
          "telegram",
          "tagger",
          "group",
-         "samilben",
-         "Sohbetimalfa"
+         "slmBATU",
       ],   
    "repository": "https://github.com/amahocam/mentionall",
    "env": {
       "TOKEN": {
          "description": "Botunuzun tokenini bura yazın",
-         "value": ""
+         "value": "5373010489:AAH8oRAwYgD2ZjN5tNuIm-144zBHM327dtA"
       },
       "APP_ID": {
          "description": "my.telegram.org adresindən APP ID alın.",
-         "value": "9379430"
+         "value": "1320790"
       },
       "API_HASH": {
          "description": "my.telegram.org adresindən API HASH alın",
-         "value": "24225f792895321668ccee4085defadf"
-      },    
-      "LOG_QRUP": {
-         "description": "log grubun id si",
-         "value": "-1001757359371"
+         "value": "e280d12162e1bb11633da9d02df1b50e"
+      
       },
       "USERNAME": {
          "description": "Botun kullanıcı adı yazınız @ işareti olmadan",
-         "value": "EtikettagerBot"
+         "value": "BugsBunnyMusiki_bot"
       },
       "sahib": {
          "description": "Kendi kullanıcı adınızı yazınız @ işareti olmadan",
-         "value": "Samilben"
-      },      
-      "support": {
-         "description": "Bura support grubunuz yada kanalınızın kullanıcı adı @ işareti olmadan yazın",
-         "value": "Sohbetimalfa"
+         "value": "slmBATU"
+     
       },
       "startmesaj": {
          "description": "Bota start verilince mesajınız",
