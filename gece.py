@@ -426,7 +426,7 @@ soz = (
 'Bana öyle geliyor ki sen de beni seviyorsun, ya da bana öyle geliyor.',
 'Aşk, ölümsüz olmak istediğin bir savaş meydanı. Bir Cihan Kafes.',
 '@slmBATU gururla selamlıyor',
-'Şuan okuduğun bu mesajı @slmBATU yazdı',
+'Şuan okuduğun bu mesajı @kostok20 yazdı',
 'Aşkın tarifini yaşayarak yazarsın sadece.',
 'Bazen vicdani yargı, idamdan daha ağır bedeller ödetebilirdi insana',
 'Buz kadar lekesiz, kar kadar temiz olsan bile, iftiradan kurtulamazsın',
