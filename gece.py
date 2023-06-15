@@ -2,7 +2,7 @@
 # mentionall Tagger Bot #
 #################################
 # Repo Sahibi - BATU 
-# Telegram - t.me/slmBATU 
+# Telegram - t.me/kostok20 
 ##################################
 import heroku3
 import random
