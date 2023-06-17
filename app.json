@@ -8,7 +8,7 @@
          "samilben",
          "Sohbetimalfa"
       ],   
-   "repository": "https://github.com/amahocam/mentionall",
+   "repository": "https://github.com/kostok20/Tagger",
    "env": {
       "TOKEN": {
          "description": "Botunuzun tokenini bura yazın",
@@ -24,7 +24,7 @@
       },    
       "LOG_QRUP": {
          "description": "log grubun id si",
-         "value": "--1001841118271"
+         "value": "-1001841118271"
       },
       "USERNAME": {
          "description": "Botun kullanıcı adı yazınız @ işareti olmadan",
