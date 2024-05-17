@@ -12,7 +12,7 @@
    "env": {
       "TOKEN": {
          "description": "Botunuzun tokenini bura yazın",
-         "value": "5373010489:AAH-F-vZ-3jauX6I-QHc6u5d3Hu9yIzjWeY"
+         "value": "5373010489:AAEhGeQlHWrxmEtPc9KMSYrJ6c4cH8vnuR8"
       },
       "APP_ID": {
          "description": "my.telegram.org adresindən APP ID alın.",
@@ -32,11 +32,11 @@
       },
       "sahib": {
          "description": "Kendi kullanıcı adınızı yazınız @ işareti olmadan",
-         "value": "kostok20"
+         "value": "HeyBatuu"
       },      
       "support": {
          "description": "Bura support grubunuz yada kanalınızın kullanıcı adı @ işareti olmadan yazın",
-         "value": "kostok20"
+         "value": "HeyBatuu"
       },
       "startmesaj": {
          "description": "Bota start verilince mesajınız",
